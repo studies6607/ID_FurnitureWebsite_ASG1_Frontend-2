@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L'intemporel Furnitures - timeless pieces</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="text/javascript" src="../js/reserve.js"></script>
+  </head>
+    
+  <body class="size-1100">
+    <div id="page-wrapper">
+      <!-- HEADER -->
+      <header role="banner" class="position-absolute margin-top-10 margin-m-top-0 margin-s-top-0">    
+        <!-- Top Navigation -->
+        <nav class="container background-transparent background-transparent-hightlight full-width sticky">
+          <div class="item s-12 l-3">
+            <a href="landing-page.html" class="logo">
+              <img class="logo-before" src="img/logo.jpg" alt="">
+              <img class="logo-after" src="img/logo.jpg" alt="">
+            </a>
+          </div>
+          <div class="item s-12 l-9">
+            <div class="top-nav right">
+              <p class="nav-text"></p>
+              <ul class="right chevron">
+                <li><a href="/">Home</a></li>
+                <li><a href="gallery-page.html">Gallery</a></li>
+                <li><a href="customization-page.html">Customization</a></li>
+                <li><a href="reserve.html">Reserve</a></li>
+              </ul>
+            </div>
+          </div>  
+        </nav>
+      </header>
+    </div>
+
+    <div class = 'title'>
+        <h1>Reserve an appointment - Get a professionial consultant for your home</h1>
+    </div>
+
+    <form onsubmit = "handleLogin(event)">
+        <div>
+            <label class = 'label' for = 'Name'> Name:
+                <input name = 'name' type = "text" placeholder = "Enter Name" id = "Name" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label class = 'label' for = 'Contact'> Contact:
+                <input name = 'contact' type = "tel" placeholder = "Enter Contact" id = "Contact" required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label class = 'label' for = 'Pax'>Pax:
+                <input type = 'number' name = 'pax' id = 'Pax' required>
+            </label>
+        </div>
+
+        <br>
+        <div>
+            <label class = label for = 'Date'>
+                Date:
+                
+                <input type = 'date' id = 'Date' name = 'date' required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label for = 'Time' class = 'label'>
+                Time:
+                
+                <input type = 'time' name = 'time' id = 'Time' required>
+            </label>
+        </div>
+        <br>
+        <div>
+            <input class="sub" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script src="../js-files/reserve.js">
+    </script>
+</body>
+</html>
