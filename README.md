@@ -1,4 +1,3 @@
-# ID_FurnitureWebsite_ASG1_Frontend
 
 ## L'intemporel Furnitures
 --------------------------
@@ -16,7 +15,7 @@ which attracts and retains many of  L'intemporel clientele.
 Github
 ------
 
-https://github.com/studies6607/ID_FurnitureWebsite_ASG1_Frontend
+https://github.com/fantasy-furniture-brand-website
 
 
 Design Process
@@ -49,7 +48,6 @@ iii) Checking if the console logged the object correctly.
 
 Citations
 ---------
-For ID Assignment 1.
 Website created for a luxury furniture company; L'intemporel Furnitures.
 Credit for website's logo; user called "DEEMKA STUDIO" on shutterstock, a stock photo website.
 https://www.shutterstock.com/image-vector/interior-room-furniture-gallery-logo-design-1761705920.
